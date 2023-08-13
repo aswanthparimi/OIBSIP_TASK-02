@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/d5e25a8c0e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="hero">
+      <div class="container">
+        <nav>
+          <img
+            src="C:\Users\Aswanth\Pictures\logo_blue_name.png"
+            class="logo"
+            alt=""
+          />
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web developer</p>
+          <h1>
+            Hi, I'm <span>Aswanth </span>Parimi<br />
+            from Vizag
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------ABOUT-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="C:\Users\Aswanth\Pictures\Saved Pictures\pic11.jpg"
+              alt=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello, I'm Aswanth, a third-year B.tech student at Gandhi
+              Institute of Technology (GITAM) studying Computer Science and
+              Business Systems. My native is Vizag (Visakhapatnam). I'm a huge
+              music fan. Biking and playing outdoor games are two other things I
+              enjoy doing.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>UI/UX</span><br />Designing Web/App Interface</li>
+                <li>
+                  <span>C++ Development</span><br />Design and Build Apps for
+                  desktops and mobile
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>Current</span><br />Mini project on full stack under
+                  Gitam Institute
+                </li>
+                <li><span>Current</span><br />Internship at OASIS INFOBYTE</li>
+                <li><span>2021</span><br />Internship at Internpe</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2021 - current </span><br />B.Tech at GITAM (CSBS)
+                </li>
+                <li>
+                  <span>2019 - 2021</span><br />Intermediate from Sri Viswa
+                  jr.college
+                </li>
+                <li>
+                  <span>2018 - 2019</span><br />
+                  10th from K.K.R GOWTHAM
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------services-------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developing</h2>
+            <p>Can build and design any type of web application</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>Can design any type of Web/App interfaces</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-hashtag"></i>
+            <h2>C++</h2>
+            <p>
+              Broad technical knowledge & Combined Creative Problem Solving
+              Skills
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ---------------portfolio-------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="https://img.freepik.com/premium-vector/woman-ordering-clothes-online-store-via-smartphone-vector-illustration_357257-1235.jpg" height="330" alt="">
+            <div class="layer">
+              <h3>E-Commerce Website</h3>
+              <p>This website helps you with all your fashion requirements. 
+                Visit and enjoy your shopping. </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://static.vecteezy.com/system/resources/previews/014/950/952/non_2x/landing-page-icon-from-affiliate-marketing-collection-simple-line-landing-page-icon-for-templates-web-design-and-infographics-vector.jpg" alt="">  
+            <div class="layer">
+              <h3>Landing Page</h3>
+              <p>This landing page gives a glance about the fashion website . 
+                Visit and enjoy your shopping. </p>
+                <a href="landing.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://static.vecteezy.com/system/resources/previews/022/159/712/original/icon-concept-of-calculator-for-calculating-tax-accounting-or-budgeting-expenses-can-be-used-for-education-math-science-can-be-applied-to-web-website-poster-mobile-apps-ads-free-vector.jpg" alt="">
+            <div class="layer">
+              <h3>Web Calculator</h3>
+              <p>This webpage is the one stop for all your arthematic problems. 
+                Visit and solve all your calculations with this Calculator. </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ------------contact---------------   -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>parimiaswanth24@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9059395864</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="text" name="email" placeholder="Your email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright © Aswanth Parimi. </p>
+      </div>
+    </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
